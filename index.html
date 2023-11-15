@@ -7,11 +7,15 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
+		<!-- SEO Keywords -->
+		<meta name="keywords" content="24 Hour Car Towing Cobourg Tow Truck Roadside Service"/>
 		<title>Next Level Auto</title>
 		<img/>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+
+		
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -21,15 +25,14 @@
 
 					<!-- Logo -->
 						<!-- <h1><a href="index.html" id="logo" src="~/images/Logo.JPG" alt="Next Level Auto Logo"></a></h1> -->
-						<a href="https://nextlevelautomotive.ca"><img href="index.html" src="images/Logo.PNG" alt="Next Level Auto Logo" /></a>
-						<hr/>
+						<h1><a style="text-decoration:none" href="https://nextlevelautomotive.ca"><img href="index.html" src="images/Logo.PNG" alt="Next Level Auto Logo" /></a></h1>
 
 
 					<!-- Nav -->
 						 <nav id="nav">
-							<!--<ul>
+							<ul>
 								<li class="current"><a href="index.html">Home</a></li>
-								 <li>
+								 <!-- <li>
 									<a href="#">Dropdown</a>
 									<ul>
 										<li><a href="#">Lorem dolor</a></li>
@@ -47,11 +50,12 @@
 										</li>
 										<li><a href="#">Veroeros feugiat</a></li>
 									</ul>
-								</li> 
-								<!-- <li><a href="towing.html">Towing</a></li>
+								</li>  -->
+								
 								<li><a href="services.html">Services</a></li>
-								<li><a href="lots.html">Lots</a></li>
-								<li><a href="contact.html">Contact</a></li> -->
+								<li><a href="gallery.html">Gallery</a></li>
+								<li><a href="videos.html">Videos</a></li>
+								<li><a href="contact.html">Contact</a></li>
 							</ul>
 						</nav> 
 
@@ -60,8 +64,11 @@
 			<!-- Banner -->
 				<section id="banner">
 					<header>
-						 <h2>24 Hour Towing Available. <em>To get in touch immediately, </em></h2>
+						<h2>24 Hour Towing Available</h2>
 						<a href="tel:+17058081402" class="button">Click here to call us! </a>
+
+						<a href="#email-contact" class="button">Request Quote</a>
+						<h2><em>Email us for a service quote!</em></h2>
 					</header>
 				</section>
 
@@ -150,6 +157,16 @@
 					</div>
 				</section>
 
+			<!-- Gigantic Heading -->
+			<section class="wrapper style2">
+				<div class="container">
+					<header class="major">
+						<h2>Customer Testimonials</h2>
+						<p>Coming Soon!</p>
+					</header>
+				</div>
+			</section>
+
 			<!-- CTA -->
 				<section id="cta" class="wrapper style3">
 					<div class="container">
@@ -165,41 +182,42 @@
 					<div class="container">
 						<div class="row">
 							<section class="col-3 col-6-narrower col-12-mobilep">
-								<!-- <h3>Links to Stuff</h3>
+								 <h3>Links to our Socials</h3>
 								<ul class="links">
-									<li><a href="#">Mattis et quis rutrum</a></li>
-									<li><a href="#">Suspendisse amet varius</a></li>
-									<li><a href="#">Sed et dapibus quis</a></li>
-									<li><a href="#">Rutrum accumsan dolor</a></li>
-									<li><a href="#">Mattis rutrum accumsan</a></li>
-									<li><a href="#">Suspendisse varius nibh</a></li>
-									<li><a href="#">Sed et dapibus mattis</a></li>
-								</ul> -->
+									<li><a href="#">Next Level Auto Facebook</a></li>
+									<li><a href="#">Next Level Auto Instagram</a></li>
+								</ul> 
 							</section>
 							<section class="col-3 col-6-narrower col-12-mobilep">
-								<!-- <h3>More Links to Stuff</h3>
+								<h3>Links to our Partners</h3>
 								<ul class="links">
-									<li><a href="#">Duis neque nisi dapibus</a></li>
-									<li><a href="#">Sed et dapibus quis</a></li>
-									<li><a href="#">Rutrum accumsan sed</a></li>
-									<li><a href="#">Mattis et sed accumsan</a></li>
-									<li><a href="#">Duis neque nisi sed</a></li>
-									<li><a href="#">Sed et dapibus quis</a></li>
-									<li><a href="#">Rutrum amet varius</a></li>
-								</ul> -->
+									<li><a href="https://fassride.com/">Fass Fuel Lift Pumps</a></li>
+									<li><a href="https://sbfilters.com/">S&B Filters</a></li>
+									<li><a href="https://www.visionwheel.com/">Vision Wheel</a></li>	
+								</ul>
 							</section>
-							<!-- <section class="col-6 col-12-narrower">
+							<section id="email-contact" class="col-6 col-12-narrower">
 								<h3>Get In Touch</h3>
-								<form>
+								<!-- <form>
 									<div class="row gtr-50">
 										<div class="col-6 col-12-mobilep">
-											<input type="text" name="name" id="name" placeholder="Name" />
+											<input type="text" name="name" id="fname" placeholder="First Name" required/>
 										</div>
 										<div class="col-6 col-12-mobilep">
-											<input type="email" name="email" id="email" placeholder="Email" />
+											<input type="text" name="name" id="lname" placeholder=" Last Name" required/>
+										</div>
+										<div class="col-6 col-12-mobilep">
+											<input type="email" name="email" id="email" placeholder="Email" required/>
+										</div>
+										<div class="col-6 col-12-mobilep">
+											<input type="text" pattern="[0-9]{10}" title="Please enter a 10-digit phone number (e.g., 1234567890)" name="phoneNumber" id="phoneNumber" placeholder="Phone Number" required/>
+										</div>
+										
+										<div class="col-12">											
+											<input type="text" name="subject" id="subject" placeholder="Subject" required/>
 										</div>
 										<div class="col-12">
-											<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
+											<textarea name="message" id="message" placeholder="Message" rows="5" required></textarea>
 										</div>
 										<div class="col-12">
 											<ul class="actions">
@@ -207,8 +225,54 @@
 											</ul>
 										</div>
 									</div>
-								</form>
-							</section> -->
+								</form> -->
+								<div id="mc_embed_shell">
+  
+									<div id="mc_embed_signup">
+										<form action="https://nextlevelautomotive.us21.list-manage.com/subscribe/post?u=82fcceffedf556aaaa97025cc&amp;id=2b23e35f24&amp;f_id=0053eae6f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate="">
+											<div id="mc_embed_signup_scroll">
+												<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+												<div class="mc-field-group">
+													<label for="mce-FNAME">First Name <span class="asterisk">*</span></label>
+													<input type="text" name="FNAME" class="required text" id="mce-FNAME" required="" value="" placeholder="First Name">
+												</div>
+												<div class="mc-field-group">
+													<label for="mce-LNAME">Last Name <span class="asterisk">*</span></label>
+													<input type="text" name="LNAME" class="required text" id="mce-LNAME" required="" value="" placeholder="Last Name">
+												</div>
+												<div class="mc-field-group">
+													<label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+													<input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="" placeholder="E-mail">
+												</div>
+												<div class="mc-field-group">
+													<label for="mce-PHONE">Phone Number <span class="asterisk">*</span></label>
+													<input type="text" name="PHONE" class="REQ_CSS" id="mce-PHONE" value="" placeholder="(###)###-####">
+												</div>
+												<div class="mc-field-group">
+													<label for="mce-MESSAGE">Message <span class="asterisk">*</span></label>
+													<input type="text" name="MESSAGE" class="required text" id="mce-MESSAGE" required="" value="" placeholder="Enter your message here">
+												</div>
+											<div id="mce-responses" class="clear foot">
+												<div class="response" id="mce-error-response" style="display: none;"></div>
+												<div class="response" id="mce-success-response" style="display: none;"></div>
+											</div>
+										<div style="position: absolute; left: -5000px;" aria-hidden="true">
+											/* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+											<input type="text" name="b_82fcceffedf556aaaa97025cc_2b23e35f24" tabindex="-1" value="">
+										</div>
+											<div class="optionalParent">
+												<div class="clear foot">
+													<input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+													<p style="margin: 0px auto;"><a href="http://eepurl.com/iC6q5o" title="Mailchimp - email marketing made easy and fun"><span style="display: inline-block; background-color: transparent; border-radius: 4px;"><img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg" alt="Intuit Mailchimp" style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a></p>
+												</div>
+											</div>
+										</div>
+									</form>
+									</div>
+									</div>
+								  
+							</section>
+
 						</div>
 					</div>
 
@@ -240,6 +304,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			
+			<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[5]='LNAME';ftypes[5]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='PHONE';ftypes[4]='phone';fnames[6]='MESSAGE';ftypes[6]='text';fnames[2]='SUBJECT';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
 
 	</body>
 </html>

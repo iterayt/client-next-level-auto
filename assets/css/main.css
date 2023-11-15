@@ -1959,7 +1959,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #FFFFFF;
+		color: #1f1f1f;
 		font-size: 1.25em;
 		position: relative;
 		margin-top: -1.25em;
@@ -2684,6 +2684,7 @@ input, select, textarea {
 	}
 
 		#banner header {
+
 			position: absolute;
 			bottom: 0;
 			left: 0;
@@ -3336,7 +3337,7 @@ input, select, textarea {
 			}
 
 				#banner header {
-					padding: 20px;
+					padding: 0px;
 				}
 
 		/* Wrapper */
