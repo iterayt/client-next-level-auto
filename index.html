@@ -198,35 +198,44 @@
 							</section>
 							<section id="email-contact" class="col-6 col-12-narrower">
 								<h3>Get In Touch</h3>
-								<!-- <form>
+								<form action="https://api.web3forms.com/submit" method="post" id="contact-form" name="contact-form" class="validate" target="_self" novalidate="">
 									<div class="row gtr-50">
-										<div class="col-6 col-12-mobilep">
-											<input type="text" name="name" id="fname" placeholder="First Name" required/>
-										</div>
-										<div class="col-6 col-12-mobilep">
-											<input type="text" name="name" id="lname" placeholder=" Last Name" required/>
-										</div>
-										<div class="col-6 col-12-mobilep">
-											<input type="email" name="email" id="email" placeholder="Email" required/>
-										</div>
-										<div class="col-6 col-12-mobilep">
-											<input type="text" pattern="[0-9]{10}" title="Please enter a 10-digit phone number (e.g., 1234567890)" name="phoneNumber" id="phoneNumber" placeholder="Phone Number" required/>
-										</div>
-										
-										<div class="col-12">											
-											<input type="text" name="subject" id="subject" placeholder="Subject" required/>
-										</div>
 										<div class="col-12">
-											<textarea name="message" id="message" placeholder="Message" rows="5" required></textarea>
+											<input type="text" name="FULLNAME" id="fname" placeholder="Full Name" required/>
+										</div>
+
+										<div class="col-6 col-12-mobilep">
+											<input type="text" pattern="[0-9]{10}" title="Please enter a 10-digit phone number (e.g., 4161234567)" name="PHONENUMBER" id="phoneNumber" placeholder="Phone Number" required/>
+										</div>
+										<div class="col-6 col-12-mobilep">
+											<input type="email" name="EMAIL" id="email" placeholder="Email"/>
+										</div>
+										<div class="col-12">											
+											<input type="text" name="VEHICLE" id="vehicle" placeholder="Vehicle" required/>
+										</div>
+										<div class="col-12">											
+											<input type="text" name="PICKUPLOC" id="pickuploc" placeholder="Pick up Location" required/>
+										</div>
+										<div class="col-12">											
+											<input type="text" name="DROPOFFLOC" id="dropoffloc" placeholder="Drop off Location" required/>
+										</div>
+
+										<div class="col-12">
+											<textarea name="MESSAGE" id="message" placeholder="Message" rows="5" required></textarea>
 										</div>
 										<div class="col-12">
 											<ul class="actions">
-												<li><input type="submit" class="button alt" value="Send Message" /></li>
+												<li><input type="submit" class="button" value="Get Quote" /></li>
 											</ul>
 										</div>
+										<div style="position: absolute; left: -5000px;" aria-hidden="true">
+											/* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+											<input type="hidden" name="redirect" value="https://nextlevelautomotive.ca/thanks.html">
+											<input type="hidden" name="access_key" value="f48e8dc7-8c46-4cda-93b7-d5018ea6c930">
+										</div>
 									</div>
-								</form> -->
-								<div id="mc_embed_shell">
+								</form>
+								<!-- <div id="mc_embed_shell">
   
 									<div id="mc_embed_signup">
 										<form action="https://api.web3forms.com/submit" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate="">
@@ -265,14 +274,16 @@
 										</div>
 											<div class="optionalParent">
 												<div class="clear foot">
-													<input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+													<input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Get Quote">
 												</div>
 											</div>
 										</div>
 									</form>
 									</div>
-									</div>
-								  
+									</div> -->
+								<!-- Web3Forms Raw Template-->  
+								
+
 							</section>
 
 						</div>
