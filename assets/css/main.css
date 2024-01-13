@@ -7,8 +7,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-div .hide{ display: none !important;
-		visibility: hidden !important;}
+.hide{ display: none;
+	visibility: hidden;}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1221,6 +1221,8 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 840px) {
+
+			
 
 			.row {
 				display: flex;
@@ -2820,6 +2822,9 @@ input, select, textarea {
 
 	@media screen and (max-width: 1680px) {
 
+		.hide{ display: none;
+			visibility: visible;}
+
 		/* Basic */
 
 			body, input, select, textarea {
@@ -2838,6 +2843,9 @@ input, select, textarea {
 /* Normal */
 
 	@media screen and (max-width: 1280px) {
+
+		.hide{ display: none;
+			visibility: visible;}
 
 		/* Basic */
 
@@ -2906,6 +2914,9 @@ input, select, textarea {
 
 	@media screen and (max-width: 980px) {
 
+		.hide{ display: none;
+			visibility: visible;}
+
 		/* Basic */
 
 			body, input, select, textarea {
@@ -2922,6 +2933,9 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 840px) {
+
+		.hide{ display: none;
+			visibility: visible;}
 
 		/* Basic */
 
